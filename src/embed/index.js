@@ -149,7 +149,7 @@ class RichEmbed {
    * @param {String} value
    * @param {Boolean} [inline]
    */
-  addField(name, value, inline = false) {
+  addField(name = '\u200B', value = '\u200B', inline = false) {
     if (this.fields.length >= 25) throw new RangeError('Embeds cannot contain more than 25 fields');
     if (typeof name !== 'string') throw new TypeError(`Expected type 'string', received type ${typeof name}`);
     if (typeof value !== 'string') throw new TypeError(`Expected type 'string', received type ${typeof value}`);
