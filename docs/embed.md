@@ -74,7 +74,7 @@ Embed Constructor for sending embeds
 > Sets the Embed Color
 > | Parameter | Type           | Default | Description |
 > |-----------|----------------|---------|-------------|
-> | color     | String\|Number |         | Embed Color |
+> | color     | String\|Number | RANDOM  | Embed Color |
 >
 > Returns `RichEmbed`
 
@@ -117,8 +117,8 @@ Embed Constructor for sending embeds
 > Adds an Embed Field
 > | Parameter | Type    | Default | Description  |
 > |-----------|---------|---------|--------------|
-> | name      | String  |         | Field Name   |
-> | value     | String  |         | Field Value  |
+> | name      | String  | blank   | Field Name   |
+> | value     | String  | blank   | Field Value  |
 > | [inline]  | Boolean | false   | Field Inline |
 >
 > Returns `RichEmbed`
