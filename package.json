@@ -1,6 +1,6 @@
 {
   "name": "pluris",
-  "version": "0.3.1",
+  "version": "0.3.3",
   "description": "Extra prototypes and utilities for the Eris Discord API Library",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/bsian03/pluris#readme",
   "peerDependencies": {
-    "eris": ">=0.13.3"
+    "eris": ">=0.14.0"
   },
   "optionalDependencies": {
     "eris-reactions": "^0.1.2"
